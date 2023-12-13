@@ -1,0 +1,108 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    background-color: black;
+    color: white; /* Default text color for the entire body */
+}
+
+h1 {
+    font-size: 60px;
+    color: whitesmoke; /* Font color for the header */
+}
+
+p {
+    /* Font color for the paragraphs */
+    color: white; /* You can use color names or hexadecimal values */
+}
+body {
+    margin: 0; 
+    padding: 0; 
+    overflow: visible; 
+}
+
+body, h1, p {
+    margin: 0;
+    padding: 0;
+}
+
+
+header {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better visibility */
+    padding: 10px 0; /* Adjust padding as needed */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    transition: 0.5;
+}
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin: 0 20px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+/* Change the appearance on hover */
+a:hover {
+    border-bottom: 2px solid white;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('knotless.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 100vh;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5em;
+}
+
+.box-container {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: gray;
+    border-radius: 5px;
+}
+
+
+.box-container a {
+    color: white;
+    text-decoration: none;
+}
+.mobile-menu {
+    display: none;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
